@@ -36,16 +36,18 @@ main{
     font-weight: 900;
 }
 
-.p{
+div{
+    width: 55vw;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.s1{
-    background-image: url('imagens/background001.jpg');
-    background-size: cover;
+.sessao1{
+    /*background-image: url('imagens/background001.jpg');
     background-attachment: fixed;
-    background-position: right center;
+    background-position: right center;*/
+    background: black url("imagens/background001.jpg") right center no-repeat fixed;
+    background-size: cover;
     color: white;
     padding: 50px 25px;
     font-size: 4vw;
@@ -53,11 +55,12 @@ main{
     box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.s2{
-    background-image: url('imagens/background002.jpg');
-    background-size: cover;
+.sessao2{
+    /*background-image: url('imagens/background002.jpg');
     background-attachment: fixed;
-    background-position: left bottom;
+    background-position: left bottom;*/
+    background: black url("imagens/background002.jpg") left bottom no-repeat fixed;
+    background-size: cover;
     color: white;
     padding: 50px 25px;
     font-size: 4vw;
